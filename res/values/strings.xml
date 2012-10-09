@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<!-- General -->	
+    <string name="app_name">Release Tracker</string>
+    <string name="error_require_internet">Error: An active internet connection is required for this action.</string>
+    
+    <!-- Changelog -->
+    <string name="changelog_full_title">Change Log</string>
+    <string name="changelog_title">What\'s New</string>
+    <string name="changelog_show_full">Show Full Change Log</string>
+    
+    <!-- Context Menu -->
+    <string name="contextmenu_delete">Delete item</string>
+    <string name="contextmenu_link_open">Open Link</string>
+    
+    <!-- Notification Service -->
+    <string name="notification_released_single">New item released.</string>
+    <string name="notification_released_multi">New items released.</string>
+    
+    <!-- Home -->
+    <string name="home_menu_search">Search Items</string>
+    <string name="home_menu_history">History</string>
+    <string name="home_menu_preferences">Preferences</string>
+    <string name="home_empty">You don\'t have any items yet. \n Use Menu -> Add Item to insert a new one.</string>
+    <string name="home_delete_item">Do you really want to delete this item?</string>
+    <string name="home_update_data">Update data</string>
+    <string name="home_welcome">Welcome</string>
+    
+    <!-- Add Item -->
+    <string name="additem_title">Add Item</string>
+    <string name="additem_search">Search</string>
+    <string name="additem_custom">Custom Item</string>
+    <string name="additem_added">Item added.</string>
+    
+    <!-- Add Person -->
+    <string name="addperson_title">Add Person</string>
+    <!-- other values are taken from additem -->
+    
+    <!-- Search -->
+    <string name="search_button_text">Search</string>
+    <string name="search_add_item">Do you want to add this item to your list?</string>
+    <string name="search_list_empty">No matches</string>
+    
+    <!-- Add Custom Item -->
+    <string name="addcustom_title">Title</string>
+    <string name="addcustom_artist">Artist</string>
+    <string name="addcustom_submit">Add Item</string>
+    <string name="addcustom_missing_title">Please enter a title.</string>
+    
+    <!-- History -->
+    <string name="history_title">History</string>
+    <string name="history_empty">No items found.</string>
+    
+    <!-- Persons -->
+    <string name="persons_title">Persons</string>
+    <string name="persons_added">Person added.</string>
+    
+    <!-- Preferences -->
+    <string name="preferences_title">Preferences</string>
+    
+    <string name="preferences_category_general">General</string>
+    
+    <string name="preferences_item_data_updates_title">Enable automatic data updates</string>
+    <string name="preferences_item_data_updates_message">Select interval to check for updated item data and newly announced items.</string>
+    <string-array name="preferences_item_data_updates_list_items">
+        <item>Never</item>  
+        <item>Daily</item>     
+        <item>Weekly</item>       
+        <item>Every two weeks</item>  
+        <item>Monthly</item>    
+    </string-array>
+    <string name="preferences_item_updates_wifi_title">Use Wifi only</string>
+    <string name="preferences_item_updates_wifi_summary">Disable automatic updates via mobile data?</string>
+    
+    <string name="preferences_screen_about">About/Licences</string>
+    
+    <string name="preferences_category_app">Application</string>
+    <string name="preferences_item_version">Version</string>
+    <string name="preferences_item_changelog">View Changelog</string>
+    <string name="preferences_item_contact">Contact Developer</string>
+    <string name="preferences_item_website">Visit Application Website</string>
+    
+    <string name="preferences_category_licences_opensource">Open Source Licences</string>
+    <string name="preferences_license_android_change_log">Android-Change-Log</string>
+    <string name="preferences_license_jtmdb">JTMDB</string>
+    
+    <string name="preferences_category_licences_api">API Licences</string>
+    <string name="preferences_license_tmdb">TMDB</string>
+
+</resources>

@@ -1,0 +1,71 @@
+<PreferenceScreen        
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:persistent="true">  
+        
+    <PreferenceCategory 
+        android:title="@string/preferences_category_general">
+	    	<ListPreference 
+	    	    android:key="automatic_data_updates"
+	    	    android:title="@string/preferences_item_data_updates_title"
+	    	    android:summary="@string/preferences_item_data_updates_message"
+	    	    android:entries="@array/preferences_item_data_updates_list_items"
+	    	    android:entryValues="@array/preferences_item_data_updates_list_values"
+	    	    android:defaultValue="7" />
+	    	<CheckBoxPreference 
+	    	    android:key="automatic_data_updates_wifi_only"
+	    	    android:title="@string/preferences_item_updates_wifi_title"
+	    	    android:summary="@string/preferences_item_updates_wifi_summary"
+	    	    android:defaultValue="true" />
+    	</PreferenceCategory>
+    	
+        <!-- item release notifications (time, type) -->
+        
+        <!-- location/country for apis -->
+              
+   	<PreferenceScreen        
+    	android:title="@string/preferences_screen_about">  
+    	
+    	<PreferenceCategory 
+	    	android:title="@string/preferences_category_app">
+	    	
+	    	<Preference
+	    	    android:title="@string/preferences_item_version"
+	    	    android:summary="@string/app_version_name"
+	    	    android:enabled="false" />
+	    	
+		    <Preference  
+		        android:key="changelog_view"
+		    	android:title="@string/preferences_item_changelog" />		    
+		    
+    	</PreferenceCategory>
+    	
+    	<PreferenceCategory 
+    	    android:title="@string/preferences_category_licences_opensource">
+		    
+		    <Preference 
+		    	android:title="@string/preferences_license_android_change_log"
+		    	android:key="license_android_change_log"> 
+	        </Preference>
+	        
+		    <Preference 
+		    	android:title="@string/preferences_license_jtmdb"
+		    	android:key="license_jtmdb"> 
+	        </Preference>
+	        
+		    <!-- actionbarsherlock / apache -->
+	        
+        </PreferenceCategory>
+        
+        <PreferenceCategory 
+    	    android:title="@string/preferences_category_licences_api">
+		    
+		    <Preference 
+		    	android:title="@string/preferences_license_tmdb"
+		    	android:key="license_tmdb">  
+	        </Preference>
+	        
+        </PreferenceCategory>
+        
+	</PreferenceScreen>
+    
+</PreferenceScreen>

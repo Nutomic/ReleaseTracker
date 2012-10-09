@@ -1,0 +1,7 @@
+Welcome!
+
+This app allows you to choose movies you wish to watch when they are released.
+
+When one of the movies in your list is released, a notification will be shown, informing you about its release.
+
+Please use the contact feature in the application preferences for any bugs or improvements.

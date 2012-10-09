@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- General -->
+    <string name="app_version_name">0.1.0</string>
+    
+    <!-- API Keys -->
+	<!-- TODO: Insert API key here -->
+    <string name="api_key_tmdb"></string>
+    
+    <!-- Web Links -->
+    <string name="api_tmdb_url_movie">http://www.themoviedb.org/movie/</string>
+    <string name="api_tmdb_url_person">http://www.themoviedb.org/person/</string>
+    
+    <!-- Web Link Parameters -->
+    <string name="api_tmdb_param_language">\\?language\\=</string>
+    
+    <!-- Preferences -->
+    <string-array name="preferences_item_data_updates_list_values">
+        <item>-1</item>  
+        <item>1</item>   
+        <item>7</item>         
+        <item>14</item>  
+        <item>30</item>   
+    </string-array>
+    
+</resources>

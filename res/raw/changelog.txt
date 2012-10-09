@@ -1,0 +1,11 @@
+<html>
+  <head>
+  </head>
+  <body>
+$ 0.1
+  % Version 0.1.0
+  _ 2012-04-01
+  	* Initial release
+$ END_OF_CHANGE_LOG
+  </body>
+</html>

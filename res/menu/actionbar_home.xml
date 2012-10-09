@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- embed icons -->
+    
+    <item android:id="@+id/add_item"
+        android:title="@string/additem_title"
+        android:icon="@drawable/ic_menu_add"
+        android:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/history"
+        android:title="@string/history_title"
+        android:icon="@drawable/ic_menu_recent_history"
+        android:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/persons"
+        android:title="@string/persons_title"
+        android:icon="@drawable/ic_menu_persons"
+        android:showAsAction="ifRoom" />
+ 
+    <item android:id="@+id/preferences"
+        android:title="@string/preferences_title"
+        android:icon="@drawable/ic_menu_preferences"
+        android:showAsAction="ifRoom" />
+</menu>

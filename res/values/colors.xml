@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#1000</color>
+    <color name="selector_default">#c5eaf8</color>
+    <color name="selector_focused">#8ad5f0</color>
+    <color name="selector_pressed">#50c0e9</color>    
+</resources>
